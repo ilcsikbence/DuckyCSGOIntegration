@@ -9,4 +9,8 @@
     <PackageReference Include="CSGSI-Core" Version="1.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="HIDAPI\" />
+  </ItemGroup>
+
 </Project>
