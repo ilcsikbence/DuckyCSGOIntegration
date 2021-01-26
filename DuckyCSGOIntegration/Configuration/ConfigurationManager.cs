@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DuckyCSGOIntegration.Configuration
+﻿namespace DuckyCSGOIntegration.Configuration
 {
-    public class ConfigurationManager
+    public static class ConfigurationManager
     {
-        public ConfigurationManager()
+        public static Configuration Configuration = ConfigurationManager.Initialize();
+
+        public static Configuration Initialize()
         {
-
+            return new Configuration();
         }
-
-        
     }
 }
